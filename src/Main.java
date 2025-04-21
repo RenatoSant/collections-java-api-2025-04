@@ -1,4 +1,8 @@
 import list.pesquisa.SomaNumero;
+import set.operacoesbasicas.ConjuntoConvidados;
+import set.operacoesbasicas.ConjuntoPalavrasUnicas;
+import set.ordenacao.GerenciadorAlunos;
+import set.pesquisa.ListaTarefas;
 
 import java.util.List;
 
@@ -7,15 +11,17 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        SomaNumero somaNumero = new SomaNumero();
-        somaNumero.adicionarNumero(9);
-        somaNumero.adicionarNumero(7);
-        somaNumero.adicionarNumero(1);
-        somaNumero.adicionarNumero(6);
-        somaNumero.adicionarNumero(4);
-        somaNumero.calcularSoma();
-        System.out.println(somaNumero.encontrarMaiorNumero());
-        System.out.println(somaNumero.encontrarMenorNumero());
-        somaNumero.exibirNumeros();
+        GerenciadorAlunos alunos = new GerenciadorAlunos();
+
+        alunos.adicionarAluno("João", 1L, 3.4);
+        alunos.adicionarAluno("Maria", 3L, 6.3);
+        alunos.adicionarAluno("Paulo", 5L, 7.6);
+        alunos.adicionarAluno("Francisca", 4L, 7.4);
+
+        alunos.exibirAlunos();
+        System.out.println(alunos.exibirAlunosPorNome());
+        System.out.println(alunos.exibirAlunosPorNota());
+        alunos.removerAluno(1L);
+        alunos.exibirAlunos();
     }
 }
