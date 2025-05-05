@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="612b809a-f61c-4d31-8ad9-e3e2b927d3f5" name="Changes" comment="novos exercicios">
-      <change afterPath="$PROJECT_DIR$/src/set/operacoesbasicas/ConjuntoConvidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/operacoesbasicas/ConjuntoPalavrasUnicas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/operacoesbasicas/Convidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/ordenacao/Alunos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/ordenacao/CadastroProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/ordenacao/ComparatorAluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/ordenacao/ComparatorProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/ordenacao/GerenciadorAlunos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/ordenacao/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/pesquisa/AgendaContatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/pesquisa/Contatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/pesquisa/ListaTarefas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/pesquisa/Tarefa.java" afterDir="false" />
+    <list default="true" id="612b809a-f61c-4d31-8ad9-e3e2b927d3f5" name="Changes" comment="Novas praticas list e Set">
+      <change afterPath="$PROJECT_DIR$/src/map/operaçõesbasicas/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/operaçõesbasicas/Dicionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/ordenação/AgendaEventos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/ordenação/ComparatorPorAutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/ordenação/ComparatorPorPreco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/ordenação/Eventos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/ordenação/LivrariaOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/ordenação/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/pesquisa/ContagemPalavras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/pesquisa/EstoqueProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/pesquisa/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -57,16 +55,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Renato/Desktop/Renat´s Kingdom/Java Studies/revisao-java-basico/collections-java-api-2025/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Renato/Desktop/Renat´s Kingdom/Java Studies/revisao-java-basico/collections-java-api-2025/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -100,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744763474952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Novas praticas list e Set">
+      <option name="closed" value="true" />
+      <created>1745262505795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745262505795</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="novos exercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="novos exercicios" />
+    <MESSAGE value="Novas praticas list e Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Novas praticas list e Set" />
   </component>
 </project>
